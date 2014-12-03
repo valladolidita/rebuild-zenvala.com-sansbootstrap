@@ -1,7 +1,9 @@
 {
   "name": "rebuild-zenvala-com-sansbootstrap",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "normalize.css": "^3.0.2"
+  },
   "devDependencies": {
     "connect": "^2.14.4",
     "connect-livereload": "^0.4.0",
