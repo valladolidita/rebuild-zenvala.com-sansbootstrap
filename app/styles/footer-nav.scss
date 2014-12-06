@@ -1,1 +1,17 @@
-//footer-nav
+.footer-nav {
+    @include clearfix;
+    border: 1px solid red;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 15px;
+}
+.footer-nav li {
+  float: left;
+  margin: 1.5em;
+  padding: 0;
+}
+.footer-nav a {
+  color: $aqua;
+  text-decoration: none;
+}
