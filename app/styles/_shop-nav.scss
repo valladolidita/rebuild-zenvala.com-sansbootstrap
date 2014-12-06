@@ -1,3 +1,24 @@
 .shop-nav {
-  text-transform: uppercase;
-}
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    @include clearfix;
+    border: 1px solid red;
+    margin: 0;
+    padding: 1.25em 0 1.25em 0;
+    list-style-type: none;
+    text-align: center;
+    border-top: 1px solid $aqua;
+
+  }
+  .shop-nav li {
+    float: left;
+    margin: .80em;
+    padding: 0;
+  }
+  .shop-nav a {
+    color: $aqua;
+    text-decoration: none;
+  }
+  .shop-nav a:hover {
+    text-decoration: 1px;
+  }

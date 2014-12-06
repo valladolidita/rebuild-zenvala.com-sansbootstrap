@@ -1,1 +1,18 @@
 //social-media
+.social-media {
+  @include clearfix;
+  border: 1px solid red;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: 15px;
+}
+.social-media li {
+  float: left;
+  margin: 1.5em;
+  padding: 0;
+}
+.social-media a {
+  color: $aqua;
+  text-decoration: none;
+}
