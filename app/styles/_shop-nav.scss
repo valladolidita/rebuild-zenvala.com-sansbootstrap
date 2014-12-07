@@ -14,11 +14,11 @@
     float: left;
     margin: .80em;
     padding: 0;
+    border-bottom: 0.1em solid transparent;
+    &:hover {
+      border-bottom: 0.1em solid $aqua;
   }
   .shop-nav a {
-    color: $aqua;
     text-decoration: none;
   }
-  .shop-nav a:hover {
-    text-decoration: 1px;
-  }
+}
