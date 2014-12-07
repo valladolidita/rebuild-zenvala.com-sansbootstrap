@@ -2,9 +2,12 @@
 .productbox {
   width: 320px;
   height: 220px;
-  background: $aqua-opacity;
+  background-color: transparent;
   padding: 3em 2em;
   color: $white;
+  &:hover {
+  background-color: $aqua-opacity;
+  }
   .product-button {
   color: $dark-green;
   letter-spacing: 1.5px;
