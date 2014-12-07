@@ -8,10 +8,11 @@
     list-style-type: none;
     text-align: center;
     border-top: 1px solid $aqua;
+    font-weight: 400;
   }
 .shop-nav  li {
     float: left;
-    margin: .80em;
+    margin: .82em;
     padding: 0;
     border-bottom: 0.1em solid transparent;
     &:hover {
