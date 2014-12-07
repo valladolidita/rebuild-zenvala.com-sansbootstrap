@@ -4,7 +4,7 @@
   @include clearfix;
   border: 1px solid red;
   margin: 0;
-  padding: 1.25em 0 1.25em 0;
+  padding: 1.25em 0 1.25em .75em;
   list-style-type: none;
   text-align: center;
   font-size: 16px;
@@ -13,6 +13,7 @@
 }
 .brand-nav li {
   float: left;
+  max-height: 25px;
   margin: .80em 2.20em .80em .80em;
   padding: 0;
   border-bottom: 0.2em solid transparent;
