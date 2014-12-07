@@ -1,4 +1,9 @@
 //productbox
+.productbox {
+  img {
+    z-index: -10;
+  }
+}
 
 .product-name {
   text-transform: uppercase;

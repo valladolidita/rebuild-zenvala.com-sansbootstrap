@@ -1,1 +1,1 @@
-console.log('\'Allo \'Allo!');
+$('.productbox').imagefill();
