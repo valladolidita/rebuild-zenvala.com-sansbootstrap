@@ -10,7 +10,7 @@
     border-top: 1px solid $aqua;
 
   }
-  .shop-nav li {
+  .shop-nav  li {
     float: left;
     margin: .80em;
     padding: 0;
@@ -18,7 +18,8 @@
     &:hover {
       border-bottom: 0.1em solid $aqua;
   }
-  .shop-nav a {
+ a {
+    color: $aqua;
     text-decoration: none;
   }
 }
