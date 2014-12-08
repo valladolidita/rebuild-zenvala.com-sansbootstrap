@@ -6,18 +6,8 @@
   padding: 3em 2em;
   color: $white;
   &:hover {
-  background-color: $aqua-opacity;
+    background-color: $aqua-opacity;
   }
-  .product-button {
-  color: $dark-green;
-  letter-spacing: 1.5px;
-  font-size: 20px;
-  text-align: center;
-  font-weight: 600;
-  text-transform: uppercase;
-  border: .15em solid $dark-green;
-  margin: .5em;
-  padding: .5em 1em;
   }
   .product-name,.product-cost {
     margin: 0;
@@ -33,4 +23,25 @@
     max-width: none;
     border: 1px solid $aqua;
   }
+  .product-button {
+    color: $dark-green;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: .15em solid $dark-green;
+    margin: .5em;
+    padding: .5em 1em;
+    &:hover {
+      background-color: $white-opacity;
+      border: .15em solid $white;
+      color: $white;
+      text-decoration: none;
+      a {
+        color: $white;
+        text-decoration: none;
+      }
+}
 }
