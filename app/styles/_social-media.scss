@@ -4,12 +4,19 @@
   margin: 0;
   padding: 0;
   list-style-type: none;
-  font-size: 15px;
+  font-size: 16px;
+  line-height: 10px;
 }
 .social-media li {
   float: left;
-  margin: 1.5em;
-  padding: 0;
+  margin: .75em;
+  padding: 1em;
+  max-height: 6em;
+  max-width: 20em;
+  border-radius: 200px 200px 200px 200px;
+  -moz-border-radius: 200px 200px 200px 200px;
+  -webkit-border-radius: 200px 200px 200px 200px;
+  border: 2.5px solid $aqua;
 }
 .social-media a {
   color: $aqua;
