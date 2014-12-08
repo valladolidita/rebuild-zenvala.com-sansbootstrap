@@ -1,32 +1,33 @@
 //productbox
 .productbox {
   position: relative;
-  width: 320px;
-  height: 220px;
+  width: 325px;
+  height: 225px;
   background-color: transparent;
-  padding: 3em 2em;
+  padding: 0;
   color: $white;
+  border: 2px solid $aqua;
   &:hover {
     background-color: $aqua-opacity;
     img {
       z-index: -10;
-      max-width: auto;
-      border: 1px solid $aqua;
+      max-width: none;
+      border: 2px solid transparent;
     }
   }
-  .product-name,.product-cost {
+  }
+  .product-name {
     position: absolute;
-    margin: 0;
+    margin: 1.75em 3em 0 4em;
     color: $white;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 0.5px;
+    line-height: 36px;
     font-weight: 500;
     font-size: 18px;
     padding: .25em;
     &:hover {
       color: $white;
   }
-
-}
 }
