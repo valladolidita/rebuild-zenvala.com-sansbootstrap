@@ -1,0 +1,23 @@
+.product-button {
+  position: absolute;
+  color: $dark-green;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: .15em solid $dark-green;
+  margin: .5em;
+  padding: .5em 2em .5em 2em;
+  &:hover {
+    background-color: $white-opacity;
+    border: .15em solid $white;
+    color: $white;
+    text-decoration: none;
+    a {
+      color: $white;
+      text-decoration: none;
+    }
+  }
+}

@@ -1,5 +1,6 @@
 //productbox
 .productbox {
+  position: relative;
   width: 320px;
   height: 220px;
   background-color: transparent;
@@ -7,41 +8,25 @@
   color: $white;
   &:hover {
     background-color: $aqua-opacity;
-  }
+    img {
+      z-index: -10;
+      max-width: auto;
+      border: 1px solid $aqua;
+    }
   }
   .product-name,.product-cost {
+    position: absolute;
     margin: 0;
+    color: $white;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 0.5px;
     font-weight: 500;
     font-size: 18px;
     padding: .25em;
-  }
-  img {
-    z-index: -10;
-    max-width: none;
-    border: 1px solid $aqua;
-  }
-  .product-button {
-    color: $dark-green;
-    letter-spacing: 1.5px;
-    text-decoration: none;
-    font-size: 20px;
-    text-align: center;
-    font-weight: 600;
-    text-transform: uppercase;
-    border: .15em solid $dark-green;
-    margin: .5em;
-    padding: .5em 1em;
     &:hover {
-      background-color: $white-opacity;
-      border: .15em solid $white;
       color: $white;
-      text-decoration: none;
-      a {
-        color: $white;
-        text-decoration: none;
-      }
+  }
+
 }
 }
