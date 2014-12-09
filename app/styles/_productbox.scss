@@ -1,8 +1,8 @@
 //productbox
 .productbox {
   position: relative;
-  width: 325px;
-  height: 225px;
+  width: 425px;
+  height: 285px;
   background-color: transparent;
   padding: 0;
   color: $white;
@@ -18,7 +18,7 @@
   }
   .product-name {
     position: absolute;
-    margin: 1.75em 3em 0 4em;
+    margin: 3.5em 4em 4em 7em;
     color: $white;
     text-transform: uppercase;
     text-align: center;
