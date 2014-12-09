@@ -1,11 +1,11 @@
 //social-media
 .social-media {
-  @include clearfix;
   margin: 0;
   padding: 0;
   list-style-type: none;
   font-size: 16px;
   line-height: 10px;
+  float: right;
 }
 .social-media li {
   float: left;
