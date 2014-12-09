@@ -1,1 +1,13 @@
 //shop-icon
+.shop-icon {
+  position: relative;
+}
+
+.cartitemnumber {
+  color: $white;
+  font-size: 16px;
+  font-weight: bold;
+  position: absolute;
+  margin-left: 20.25px;
+  margin-top: 19px;
+}
