@@ -1,34 +1,31 @@
 //productbox
+img {
+  max-width: 100%;
+}
 .productbox {
+  border: 2px solid red;
   position: relative;
-  width: 425px;
-  height: 285px;
-  background-color: transparent;
-  padding: 0;
+  text-align: center;
+  padding: 1em;
+}
+.productbox--info {
+  background-color: $aqua-opacity;
+  text-transform: uppercase;
+  font-weight: bolder;
+  letter-spacing: .05em;
   color: $white;
-  border: 2px solid $aqua;
-  &:hover {
-    position: absolute;
-    background-color: $aqua-opacity;
-    border: 1.55em solid transparent;
-    img {
-      z-index: -10;
-      max-width: none;
-    }
-  }
-  }
-  .product-name {
-    position: absolute;
-    margin: 3em 4em 4em 6em;
-    color: $white;
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 0.5px;
-    line-height: 36px;
-    font-weight: 500;
-    font-size: 18px;
-    padding: .25em;
-    &:hover {
-      color: $white;
-  }
+  padding: 1em;
+  opacity: 0;
+}
+.productbox:hover .productbox--info {
+  opacity: 1;
+}
+.productbox .product-name .product-cost {
+  margin: 0;
+}
+.productbox img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -10;
 }
