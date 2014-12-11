@@ -4,7 +4,7 @@ img {
 }
 .productbox {
   @include clearfix;
-  border: 2px solid red;
+  border: 2px solid $aqua;
   position: relative;
   text-align: center;
   padding: 1em;

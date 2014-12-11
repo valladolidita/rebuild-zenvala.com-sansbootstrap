@@ -1,15 +1,16 @@
 //shop-icon
 
 .shop-icon {
-  float: left;
+  float: right;
   position: relative;
   text-align: center;
   padding: 0.85em;
+  margin: .75em;
   width: 3em;
   height: 3em;
 }
 .cartitemnumber {
-  margin: 0;
+  margin: .20em;
   color: $white;
   font-size: 16px;
   font-weight: bold;
