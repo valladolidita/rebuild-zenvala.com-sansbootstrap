@@ -1,6 +1,9 @@
 //productbox
-
+img {
+  max-width: 100%;
+}
 .productbox {
+  @include clearfix;
   border: 2px solid red;
   position: relative;
   text-align: center;
