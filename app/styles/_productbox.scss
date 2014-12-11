@@ -1,12 +1,11 @@
 //productbox
-img {
-  max-width: 100%;
-}
+
 .productbox {
   border: 2px solid red;
   position: relative;
   text-align: center;
   padding: 1em;
+  width: 28%;
 }
 .productbox--info {
   background-color: $aqua-opacity;
@@ -33,13 +32,15 @@ img {
   color: $dark-green;
   letter-spacing: 1.5px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
-  border: .15em solid $dark-green;
+  border: .25em solid $dark-green;
+  padding: 0.35em;
+  margin: 0 2.75em;
   &:hover {
     background-color: $white-opacity;
-    border: .15em solid $white;
+    border: .25em solid $white;
     color: $white;
     text-decoration: none;
     a {
