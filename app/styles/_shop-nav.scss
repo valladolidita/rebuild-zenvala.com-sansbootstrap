@@ -2,11 +2,12 @@
     text-transform: uppercase;
     letter-spacing: 1.5px;
     @include clearfix;
-    margin: 0;
-    padding: 1.25em 0 1.25em 0;
+    margin: 0 auto;;
+    padding: 20px;
     list-style-type: none;
     text-align: center;
     font-weight: 400;
+    text-align: center;
   }
 .shop-nav  li {
     float: left;
